@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
   try {
     const { password } = JSON.parse(event.body); // Example: getting data from request body
     console.log("password: ", password)
-    if(password && password == "reflection-in-a-dead-diamond-is-#-1") {
+    if(password && password == "reflection-in-a-dead-diamond-is-#1") {
         return {
             statusCode: 200,
             headers: { "Content-Type": "application/json" },
