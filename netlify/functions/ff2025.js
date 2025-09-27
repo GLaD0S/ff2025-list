@@ -19,10 +19,7 @@ exports.handler = async (event, context) => {
         return {
             statusCode: 200,
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify([
-                "test",
-                "test1",
-            ]),
+            body: JSON.stringify(FF2025_LIST),
         };
     }
     else {
