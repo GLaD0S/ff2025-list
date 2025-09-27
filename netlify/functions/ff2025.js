@@ -6,8 +6,8 @@ FF2025_LIST = [
     "The Evil that Binds Us",
     "Disforia",
     "Tie Man",
-    "Night Patrol",
     "Road to Vendetta",
+    "Night Patrol",
     "Whistle",
 ]
 
